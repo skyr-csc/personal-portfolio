@@ -153,6 +153,14 @@ input, textarea {
 
 :focus { outline-color: var(--orange-yellow-crayola); }
 
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--orange-yellow-crayola);
+  outline-offset: 4px;
+}
+
 html { font-family: var(--ff-poppins); }
 
 body { background: var(--smoky-black); }
@@ -349,9 +357,14 @@ main {
   background: var(--onyx);
   font-size: var(--fs-8);
   font-weight: var(--fw-300);
-  width: max-content;
-  padding: 3px 12px;
+  width: fit-content;
+  max-width: 100%;
+  white-space: normal;
+  text-align: center;
+  padding: 5px 12px;
   border-radius: 8px;
+  line-height: 1.3;
+  word-break: break-word;
 }
 
 .info_more-btn {
@@ -416,7 +429,7 @@ main {
 }
 
 .contact-title {
-  color: var(--light-gray-70);
+  color: var(--light-gray);
   font-size: var(--fs-8);
   text-transform: uppercase;
   margin-bottom: 2px;
