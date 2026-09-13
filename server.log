@@ -1,0 +1,10 @@
+127.0.0.1 - - [13/Sep/2026 18:38:41] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2026 18:38:41] "GET /assets/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2026 18:38:41] "GET /assets/js/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2026 18:38:41] "GET /assets/images/skylar.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2026 18:38:43] "GET /assets/images/project-1.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2026 18:38:43] "GET /assets/images/project-2.png HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2026 18:38:45] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2026 18:38:45] "GET /assets/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2026 18:38:45] "GET /assets/images/skylar.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2026 18:38:45] "GET /assets/js/script.js HTTP/1.1" 200 -
